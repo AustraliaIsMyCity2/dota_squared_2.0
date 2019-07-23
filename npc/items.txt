@@ -39,7 +39,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCastRange"				"0"
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"15.0"
+		"AbilityCooldown"				"7.5"
 		"AbilityManaCost"				"0"
 		
 		// Item Info
@@ -59,17 +59,17 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"blink_range"			"1200"
+				"blink_range"			"2400"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"blink_damage_cooldown"	"3.0"
+				"blink_damage_cooldown"	"1.5"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"blink_range_clamp"		"960"
+				"blink_range_clamp"		"2400"
 			}
 		}
 	}
@@ -98,7 +98,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"9"
+				"bonus_damage"			"18"
 			}
 		}
 	}
@@ -128,7 +128,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"18"
+				"bonus_damage"			"36"
 			}
 		}
 	}
@@ -159,7 +159,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_armor"			"5"
+				"bonus_armor"			"10"
 			}
 		}
 	}
@@ -189,7 +189,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"21"
+				"bonus_damage"			"42"
 			}
 		}
 	}
@@ -219,12 +219,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_armor"			"5"
+				"bonus_armor"			"10"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_regen"			"3.5"
+				"bonus_regen"			"7"
 			}
 		}
 	}
@@ -253,12 +253,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_chance"			"25"
+				"bonus_chance"			"50"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_chance_damage"	"100"
+				"bonus_chance_damage"	"200"
 			}
 		}
 	}
@@ -287,7 +287,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"24"
+				"bonus_damage"			"48"
 			}
 		}
 	}
@@ -318,7 +318,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_armor"			"10"
+				"bonus_armor"			"20"
 			}
 		}
 	}
@@ -347,12 +347,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"10"
+				"bonus_damage"			"20"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_speed"			"10"
+				"bonus_speed"			"20"
 			}
 		}
 	}
@@ -370,9 +370,9 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
 
-		"AbilityCastRange"				"350"
+		"AbilityCastRange"				"700"
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"4.0"
+		"AbilityCooldown"				"2.0"
 		"Model"							"models/props_gameplay/quelling_blade.vmdl"
 		
 		// Item Info
@@ -394,22 +394,22 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage_bonus"			"24"
+				"damage_bonus"			"48"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage_bonus_ranged"	"7"
+				"damage_bonus_ranged"	"14"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"quelling_range_tooltip"			"350"
+				"quelling_range_tooltip"			"700"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"cast_range_ward"			"450"
+				"cast_range_ward"			"900"
 			}
 		}
 	}
@@ -429,7 +429,7 @@
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"5.0"
+		"AbilityCooldown"				"2.5"
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
@@ -459,12 +459,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"2"
+				"bonus_damage"			"4"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"hp_restore"			"85"
+				"hp_restore"			"170"
 			}
 		}
 	}
@@ -482,7 +482,7 @@
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"7.0"
+		"AbilityCooldown"				"3.5"
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
@@ -513,7 +513,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"mana_regen"			"0.75"
+				"mana_regen"			"1.5"
 			}
 			"02"
 			{
@@ -528,12 +528,12 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"magic_damage_block"	"120"
+				"magic_damage_block"	"240"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"min_damage"			"50"
+				"min_damage"			"100"
 			}
 			"06"
 			{
@@ -581,7 +581,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"movement_speed"			"20"
+				"movement_speed"			"40"
 			}
 		}
 	}
@@ -619,7 +619,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_armor"			"2"
+				"bonus_armor"			"4"
 			}
 		}
 	}
@@ -650,17 +650,17 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage_block_melee"	"20"
+				"damage_block_melee"	"40"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage_block_ranged"	"9"
+				"damage_block_ranged"	"18"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"block_chance"			"50"
+				"block_chance"			"100"
 			}
 		}
 	}
@@ -719,22 +719,22 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_attack_speed"	"140"
+				"bonus_attack_speed"	"280"
 			}			
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_night_vision"	"400"
+				"bonus_night_vision"	"800"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"consumed_bonus"	"60"
+				"consumed_bonus"	"120"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"consumed_bonus_night_vision"	"200"
+				"consumed_bonus_night_vision"	"400"
 			}
 		}
 	}
@@ -764,7 +764,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_strength"		"3"
+				"bonus_strength"		"6"
 			}
 		}
 	}
@@ -794,7 +794,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_agility"			"3"
+				"bonus_agility"			"6"
 			}
 		}
 	}
@@ -824,7 +824,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_intellect"		"3"
+				"bonus_intellect"		"6"
 			}
 		}
 	}
@@ -862,17 +862,17 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_all_stats"		"1"
+				"bonus_all_stats"		"2"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"tree_duration"		"20"
+				"tree_duration"		"40"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"range_tooltip"	"400"
+				"range_tooltip"	"800"
 			}
 		}
 	}
@@ -902,7 +902,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_strength"		"6"
+				"bonus_strength"		"12"
 			}
 		}
 	}
@@ -932,7 +932,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_agility"			"6"
+				"bonus_agility"			"12"
 			}
 		}
 	}
@@ -962,7 +962,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_intellect"		"6"
+				"bonus_intellect"		"12"
 			}
 		}
 	}
@@ -992,7 +992,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_all_stats"		"2"
+				"bonus_all_stats"		"4"
 			}
 		}
 	}
@@ -1023,7 +1023,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_all_stats"		"4"
+				"bonus_all_stats"		"8"
 			}
 		}
 	}
@@ -1052,7 +1052,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_strength"		"10"
+				"bonus_strength"		"20"
 			}
 		}
 	}
@@ -1081,7 +1081,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_agility"			"10"
+				"bonus_agility"			"20"
 			}
 		}
 	}
@@ -1110,7 +1110,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_intellect"		"10"
+				"bonus_intellect"		"20"
 			}
 		}
 	}
@@ -1140,7 +1140,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_all_stats"		"10"
+				"bonus_all_stats"		"20"
 			}
 		}
 	}
@@ -1170,7 +1170,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_attack_speed"	"20"
+				"bonus_attack_speed"	"40"
 			}
 		}
 	}
@@ -1201,7 +1201,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"lifesteal_percent"		"15"
+				"lifesteal_percent"		"30"
 			}
 		}
 	}
@@ -1237,7 +1237,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_health_regen"	"2"
+				"bonus_health_regen"	"4"
 			}
 		}
 		
@@ -1274,12 +1274,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_health"			"150"
+				"bonus_health"			"300"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_health_regen"	"3.75"
+				"bonus_health_regen"	"7.5"
 			}
 		}
 		
@@ -1310,7 +1310,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_mana_regen"		"0.75"
+				"bonus_mana_regen"		"1.5"
 			}
 		}
 	}
@@ -1344,7 +1344,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_movement_speed"	"15"
+				"bonus_movement_speed"	"30"
 			}
 		}
 	}
@@ -1358,7 +1358,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ID"							"30"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-		"AbilityCastRange"				"900"
+		"AbilityCastRange"				"1800"
 		"Model"							"models/props_gameplay/gem01.vmdl"
 		"Effect"						"particles/generic_gameplay/dropped_gem.vpcf"
 
@@ -1392,7 +1392,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"radius"				"900"
+				"radius"				"1800"
 			}
 		}
 	}
@@ -1457,7 +1457,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_evasion"			"15"
+				"bonus_evasion"			"30"
 			}
 		}
 	}
@@ -1477,11 +1477,11 @@
 		
 		// Stats	
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"40.0"
+		"AbilityCooldown"				"20.0"
 		
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"1000"
+		"ItemCost"						"2000"
 		"ItemShopTags"					""
 		"ItemQuality"					"consumable"
 		"ItemPurchasable"				"0"
@@ -1500,12 +1500,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"health_restore"		"2500"
+				"health_restore"		"5000"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"mana_restore"			"1500"
+				"mana_restore"			"3000"
 			}
 		}
 	}
@@ -1523,9 +1523,9 @@
 		
 		// Stats	
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"13.0"
+		"AbilityCooldown"				"6.5"
 		"AbilitySharedCooldown"			"magicwand"
-		"AbilityCastRange"				"1200"
+		"AbilityCastRange"				"2400"
 		
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
@@ -1545,17 +1545,17 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"max_charges"			"10"
+				"max_charges"			"20"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"charge_radius"			"1200"
+				"charge_radius"			"2400"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"restore_per_charge"	"15"
+				"restore_per_charge"	"30"
 			}
 		}
 	}
@@ -1598,9 +1598,9 @@
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"13.0"
+		"AbilityCooldown"				"6.5"
 		"AbilitySharedCooldown"			"magicwand"
-		"AbilityCastRange"				"1200"
+		"AbilityCastRange"				"2400"
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
@@ -1619,22 +1619,22 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"max_charges"			"20"
+				"max_charges"			"40"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"charge_radius"			"1200"
+				"charge_radius"			"2400"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_all_stats"		"3"
+				"bonus_all_stats"		"6"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"restore_per_charge"	"15"
+				"restore_per_charge"	"30"
 			}
 		}
 	}
@@ -1652,7 +1652,7 @@
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"20.0"		 
+		"AbilityCooldown"				"10"		 
 		"AbilitySharedCooldown"			"ethereal"
 		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 
@@ -1671,12 +1671,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_all_stats"		"5"
+				"bonus_all_stats"		"10"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"duration"				"4.0"
+				"duration"				"8.0"
 			}
 			"03"
 			{
@@ -1700,7 +1700,7 @@
 		"Model"							"models/props_gameplay/clarity.vmdl"		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"250"
+		"AbilityCastRange"				"500"
 		"AbilityCastPoint"				"0.0"	
 		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 		
@@ -1724,17 +1724,17 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"mana_regen"			"4.5"
+				"mana_regen"			"9"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"buff_duration"			"50"
+				"buff_duration"			"100"
 			}			
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"range_tooltip"			"250"
+				"range_tooltip"			"500"
 			}
 		}
 	}
