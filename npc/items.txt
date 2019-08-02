@@ -6697,7 +6697,7 @@
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"250.0"
+		"AbilityCooldown"				"125"
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
@@ -6705,7 +6705,7 @@
 		"ItemShopTags"					"regen_health;regen_mana;mana_pool;health_pool"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"bs;bloodstone"
-		"ItemInitialCharges"			"14"
+		"ItemInitialCharges"			"28"
 		"ItemDisplayCharges"			"1"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
 		"AllowedInBackpack"				"0"
@@ -6718,32 +6718,32 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_health"			"475"
+				"bonus_health"			"950"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_mana"			"425"
+				"bonus_mana"			"950"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_health_regen"	"6.0"
+				"bonus_health_regen"	"12"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_mana_regen"		"3.0"
+				"bonus_mana_regen"		"6"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"mana_regen_multiplier"		"200"
+				"mana_regen_multiplier"		"300"
 			}
 			"06"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"regen_per_charge"		"0.3"
+				"regen_per_charge"		"0.6"
 			}
 			"07"
 			{
@@ -6758,12 +6758,12 @@
 			"09"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"charge_range"			"1600"
+				"charge_range"			"3200"
 			}
 			"10"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"initial_charges_tooltip" "14"
+				"initial_charges_tooltip" "28"
 			}
 			"11"
 			{
@@ -6817,8 +6817,8 @@
 		"FightRecapLevel"				"1"
 
 		
-		"AbilityCastRange"				"700"
-		"AbilityCooldown"				"13.0"
+		"AbilityCastRange"				"1400"
+		"AbilityCooldown"				"6.5"
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
@@ -6837,27 +6837,27 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_all_stats"		"13"
+				"bonus_all_stats"		"26"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_health_regen"	"6.5"
+				"bonus_health_regen"	"13"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_mana_regen"		"5.0"
+				"bonus_mana_regen"		"10"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"block_cooldown"		"13.0"
+				"block_cooldown"		"6.5"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"cast_range_tooltip"	"700"
+				"cast_range_tooltip"	"1400"
 			}
 		}
 	}
@@ -6900,9 +6900,9 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
 		"FightRecapLevel"				"1"
 		
-		"AbilityCooldown"				"15.0"
-		"AbilityCastRange"				"900"
-		"AbilityManaCost"				"75"
+		"AbilityCooldown"				"7.5"
+		"AbilityCastRange"				"1800"
+		"AbilityManaCost"				"37.5"
 
 
 		// Item Info
@@ -6922,32 +6922,32 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_armor"		"10"
+				"bonus_armor"		"20"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_health_regen"	"6.5"
+				"bonus_health_regen"	"13"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bonus_mana_regen"		"4.0"
+				"bonus_mana_regen"		"8"
 			}			
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_mana"			"250"
+				"bonus_mana"			"500"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"active_duration"		"6"
+				"active_duration"		"12"
 			}
 			"06"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"cast_range_tooltip"		"900"
+				"cast_range_tooltip"		"1800"
 			}
 		}
 	}
