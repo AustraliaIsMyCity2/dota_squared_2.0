@@ -660,7 +660,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"block_chance"			"100"
+				"block_chance"			"50"
 			}
 		}
 	}
